@@ -17,21 +17,61 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
-  m_PPtrCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 3402189841344244264, guid: 72a0ade3c2bf77a4288ccd839e1fa7b9,
+        type: 3}
+    - time: 1
+      value: {fileID: 3402189841344244264, guid: 72a0ade3c2bf77a4288ccd839e1fa7b9,
+        type: 3}
+    attribute: m_Sprite
+    path: Player
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: -5571395957323406108, guid: ac4d89358ef750d4aa91a2596cf3f700,
+        type: 3}
+    - time: 1.0166667
+      value: {fileID: -5571395957323406108, guid: ac4d89358ef750d4aa91a2596cf3f700,
+        type: 3}
+    attribute: m_Sprite
+    path: Player/Part
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 2679471955
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 879354067
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 3402189841344244264, guid: 72a0ade3c2bf77a4288ccd839e1fa7b9, type: 3}
+    - {fileID: 3402189841344244264, guid: 72a0ade3c2bf77a4288ccd839e1fa7b9, type: 3}
+    - {fileID: -5571395957323406108, guid: ac4d89358ef750d4aa91a2596cf3f700, type: 3}
+    - {fileID: -5571395957323406108, guid: ac4d89358ef750d4aa91a2596cf3f700, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 1.0333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
