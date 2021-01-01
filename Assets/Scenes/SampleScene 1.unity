@@ -204,6 +204,74 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &573644128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3100376328396120756, guid: 47e2da85d64d315488a0bfddbd96c19e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3100376329806829494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &573644129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573644128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fc04e3d61c9f742be9a615015d5803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasControl: 1
+  WASD:
+    m_Name: WASD
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 60d67f24-ecd8-452c-be17-3d0cd2fa2207
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: Movement
+      m_Id: 0b7c5d12-1762-4b09-a5b1-ff158dc6759f
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: WASD
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 62e055b7-48b7-47d2-8e6d-4e004a5ad46c
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: WASD
+      m_Flags: 8
+    - m_Name: down
+      m_Id: acfbe3f6-790c-490c-a082-6d5edfeda4a2
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: WASD
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 4a17db93-dd95-47ad-a4f1-54442fd2ee63
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: WASD
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 0c798043-3229-48f9-b68b-7a02d542e05c
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: WASD
+      m_Flags: 8
+  movementSpeed: 5
 --- !u!1 &1551848771
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551848771}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.781, y: -0.072, z: -4.1289062}
+  m_LocalPosition: {x: 5.65, y: -2.74, z: -4.1289062}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -304,6 +372,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3100376328381172572, guid: 47e2da85d64d315488a0bfddbd96c19e,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100376328381172572, guid: 47e2da85d64d315488a0bfddbd96c19e,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100376328381172572, guid: 47e2da85d64d315488a0bfddbd96c19e,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100376328381172575, guid: 47e2da85d64d315488a0bfddbd96c19e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100376328381172575, guid: 47e2da85d64d315488a0bfddbd96c19e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.95
+      objectReference: {fileID: 0}
     - target: {fileID: 3100376328396120755, guid: 47e2da85d64d315488a0bfddbd96c19e,
         type: 3}
       propertyPath: m_LocalPosition.x
